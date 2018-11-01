@@ -8,6 +8,7 @@ const superagent = require("superagent");
 let warns = JSON.parse(fs.readFileSync("./warnings.json", "utf8"));
 bot.commands = new Discord.Collection();
 let coins = require("./coins.json");
+
 const options = [
   '🇦',
   '🇧',
